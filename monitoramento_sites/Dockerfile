@@ -2,7 +2,7 @@ FROM golang:1.16.5-alpine3.13 AS build
 
 WORKDIR /go/src/variables
 
-COPY go.mod main.go ./
+COPY ./src ./
 
 RUN go build main.go
 
