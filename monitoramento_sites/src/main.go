@@ -21,7 +21,7 @@ func main() {
 
 	if comando == 1 {
 		fmt.Println("Monitorando...")
-	}else if comando ==2 {
+	}else if comando == 2 {
 		fmt.Println("Exibindo logs...")
 	}else if comando == 0 {
 		fmt.Println("Saindo do programa...")
